@@ -240,30 +240,13 @@ export default function AchievementManager() {
         </SafeAreaView>
     );
 }
-const [achievements, setAchievements] = useState<any[]>([]);
-const [loading, setLoading] = useState(true);
-const [modalVisible, setModalVisible] = useState(false);
-const [editingItem, setEditingItem] = useState<any>(null);
 
-// Form State
-const [title, setTitle] = useState('');
-const [description, setDescription] = useState('');
-const [orderIndex, setOrderIndex] = useState('0');
-
-useEffect(() => {
-    fetchData();
-}, []);
-
-const fetchData = async () => {
-    try {
-        setLoading(true);
-        const data = await PortfolioService.getAchievements();
-        setAchievements(data || []);
+setAchievements(data || []);
     } catch (error: any) {
-        Alert.alert('Error', error.message);
-    } finally {
-        setLoading(false);
-    }
+    Alert.alert('Error', error.message);
+} finally {
+    setLoading(false);
+}
 };
 
 const handleSave = async () => {

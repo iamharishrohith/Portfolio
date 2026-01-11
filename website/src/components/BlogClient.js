@@ -28,7 +28,6 @@ export default function BlogClient({ articles = [] }) {
     const otherArticles = filteredArticles.slice(1)
 
     return (
-    return (
         <main className="min-h-screen bg-slate-50 dark:bg-gradient-to-b dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
             {/* Header */}
             <div className="border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl sticky top-0 z-50">
