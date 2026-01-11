@@ -1,4 +1,4 @@
-'use client'
+'use client'; // Force Rebuild Fix
 
 import { useState } from 'react'
 import Link from 'next/link'
