@@ -9,7 +9,7 @@ import {
     BookOpen, Sparkles, ChevronRight
 } from 'lucide-react'
 
-export default function BlogClient({ articles = [] }) {
+export default function BlogList({ articles = [] }) {
     const [searchQuery, setSearchQuery] = useState('')
     const [selectedTag, setSelectedTag] = useState(null)
 

@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
-import BlogClient from '@/components/BlogClient'
+import BlogList from '@/components/BlogList'
 
 const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL,
@@ -30,5 +30,5 @@ async function getArticles() {
 export default async function BlogPage() {
     const articles = await getArticles()
 
-    return <BlogClient articles={articles} />
+    return <BlogList articles={articles} />
 }
