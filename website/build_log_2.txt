@@ -1,0 +1,39 @@
+
+> app@0.1.0 build
+> next build
+
+   ▲ Next.js 15.3.5
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 2000ms
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+(node:25524) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ⚠ Using edge runtime on a page currently disables static generation for that page
+(node:25480) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11684) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16792) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+   Generating static pages (0/7) ...
+Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Event handlers cannot be passed to Client Component props.
+  {onClick: function onClick, className: ..., children: ...}
+            ^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at e$ (D:\Solo-Leveling-Portfolio\website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:17:23404)
+    at Object.toJSON (D:\Solo-Leveling-Portfolio\website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:17:14854)
+    at stringify (<anonymous>)
+    at eF (D:\Solo-Leveling-Portfolio\website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:17:26079)
+    at eq (D:\Solo-Leveling-Portfolio\website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:17:26391)
+    at ez (D:\Solo-Leveling-Portfolio\website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:17:26887)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at D:\Solo-Leveling-Portfolio\website\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:17:27678
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:213:14)
+Export encountered an error on /_not-found/page: /_not-found, exiting the build.
+ ⨯ Next.js build worker exited with code: 1 and signal: null

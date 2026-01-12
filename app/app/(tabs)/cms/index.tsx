@@ -3,7 +3,7 @@ import { TouchableOpacity, Linking, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Database, FolderGit2, BookOpen, Award, Key, ChevronRight, Briefcase, User, ExternalLink, Trophy, Command, MessageSquare, FileText } from 'lucide-react-native';
-import { Layout, Text, List, ListItem, Divider, Card, Button, Icon } from '@ui-kitten/components';
+import { Layout, Text, List, ListItem, Divider, Card, Button } from '@ui-kitten/components';
 import { useSystemSound } from '../../../hooks/useSystemSound';
 import Animated, { FadeInDown } from 'react-native-reanimated';
 

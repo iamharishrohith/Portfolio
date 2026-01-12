@@ -2,12 +2,18 @@ import { supabase } from '@/lib/supabase';
 
 export default async function sitemap() {
     const baseUrl = 'https://harishrohith.vercel.app';
-    const { data: articles } = await supabase
-        .from('articles')
-        .select('slug, updated_at')
-        .eq('is_published', true);
+    let articles = [];
+    try {
+        const { data } = await supabase
+            .from('articles')
+            .select('slug, updated_at')
+            .eq('is_published', true);
+        articles = data || [];
+    } catch (e) {
+        console.error('Sitemap fetch error:', e);
+    }
 
-    const articleUrls = (articles || []).map((article) => ({
+    const articleUrls = articles.map((article) => ({
         url: `${baseUrl}/blog/${article.slug}`,
         lastModified: new Date(article.updated_at),
         changeFrequency: 'weekly',

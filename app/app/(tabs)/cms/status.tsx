@@ -135,7 +135,6 @@ export default function StatusManager() {
                 full_name: fullName,
                 job_title: jobTitle,
                 title: title,
-                title: title,
                 coding_stats: codingStats,
                 updated_at: new Date(),
             };

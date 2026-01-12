@@ -7,7 +7,8 @@ const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 )
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata(props) {
+    const params = await props.params
     const { data: article } = await supabase
         .from('articles')
         .select('title, excerpt, cover_image')
@@ -59,7 +60,8 @@ async function getRelatedArticles(currentId, tags) {
     return data || []
 }
 
-export default async function ArticlePage({ params }) {
+export default async function ArticlePage(props) {
+    const params = await props.params
     const article = await getArticle(params.slug)
 
     if (!article) {

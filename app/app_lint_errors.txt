@@ -1,0 +1,26 @@
+
+> monarch-admin-mobile@1.0.0 lint
+> expo lint --quiet
+
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_SUPABASE_SERVICE_ROLE_KEY
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\index.tsx
+  28:43  error  Component definition is missing display name  react/display-name
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\passwords.tsx
+  354:18  error  'KeyboardAvoidingView' is not defined  react/jsx-no-undef
+  474:30  error  'KeyboardAvoidingView' is not defined  react/jsx-no-undef
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\status.tsx
+  138:17  error  Duplicate key 'title'  no-dupe-keys
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\testimonials.tsx
+  203:33  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  203:48  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\index.tsx
+  421:102  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+✖ 7 problems (7 errors, 0 warnings)
+

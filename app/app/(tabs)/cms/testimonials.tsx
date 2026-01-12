@@ -24,6 +24,7 @@ export default function TestimonialsManager() {
 
     useEffect(() => {
         fetchTestimonials();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const fetchTestimonials = async () => {
@@ -200,7 +201,7 @@ export default function TestimonialsManager() {
                             </View>
 
                             <Text className="text-slate-500 text-xs mb-3 font-medium leading-5 italic">
-                                "{item.content}"
+                                "&quot;{item.content}&quot;"
                             </Text>
                         </View>
                     ))

@@ -1,0 +1,132 @@
+
+> monarch-admin-mobile@1.0.0 lint
+> expo lint
+
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_SUPABASE_SERVICE_ROLE_KEY
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\_layout.tsx
+  3:10  warning  'Platform' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\ability.tsx
+   8:25  warning  'faServer' is defined but never used          @typescript-eslint/no-unused-vars
+  10:51  warning  'faTerminal' is defined but never used        @typescript-eslint/no-unused-vars
+  18:50  warning  'useSharedValue' is defined but never used    @typescript-eslint/no-unused-vars
+  18:66  warning  'useAnimatedStyle' is defined but never used  @typescript-eslint/no-unused-vars
+  18:84  warning  'withSpring' is defined but never used        @typescript-eslint/no-unused-vars
+  18:96  warning  'withTiming' is defined but never used        @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\calendar.tsx
+  6:117  warning  'Trash2' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\achievements.tsx
+  5:41  warning  'Calendar' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\articles.tsx
+  9:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\certifications.tsx
+  9:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\experiences.tsx
+  9:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\index.tsx
+   2:10  warning  'TouchableOpacity' is defined but never used  @typescript-eslint/no-unused-vars
+   6:55  warning  'Button' is defined but never used            @typescript-eslint/no-unused-vars
+   6:63  warning  'Icon' is defined but never used              @typescript-eslint/no-unused-vars
+  28:43  error    Component definition is missing display name  react/display-name
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\passwords.tsx
+   39:27  warning  'error' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  354:18  error    'KeyboardAvoidingView' is not defined       react/jsx-no-undef
+  474:30  error    'KeyboardAvoidingView' is not defined       react/jsx-no-undef
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\projects.tsx
+   5:71  warning  'ImageIcon' is defined but never used        @typescript-eslint/no-unused-vars
+   9:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  51:18  warning  'e' is defined but never used                @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\roles.tsx
+  5:38  warning  'Command' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\skills.tsx
+    8:25  warning  'faServer' is defined but never used         @typescript-eslint/no-unused-vars
+    8:35  warning  'faCloud' is defined but never used          @typescript-eslint/no-unused-vars
+   10:14  warning  'faRefresh' is defined but never used        @typescript-eslint/no-unused-vars
+  108:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\status.tsx
+    8:60  warning  'faRefresh' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   16:12  warning  'loading' is assigned a value but never used                                                                     @typescript-eslint/no-unused-vars
+   40:8   warning  React Hook useEffect has a missing dependency: 'fetchProfile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   45:27  warning  'error' is assigned a value but never used                                                                       @typescript-eslint/no-unused-vars
+  138:17  error    Duplicate key 'title'                                                                                            no-dupe-keys
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\testimonials.tsx
+    9:11  warning  'insets' is assigned a value but never used                      @typescript-eslint/no-unused-vars
+  203:33  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  203:48  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\index.tsx
+    6:3    warning  'Bell' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+    7:17   warning  'Trophy' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+    7:37   warning  'Users' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+    8:3    warning  'TrendingUp' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  111:6    warning  React Hook useEffect has a missing dependency: 'fetchAllData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  172:6    warning  React Hook useEffect has a missing dependency: 'fetchProfile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  421:102  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                  react/no-unescaped-entities
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\learning.tsx
+  6:23  warning  'Circle' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\links.tsx
+   9:18  warning  'faGraduationCap' is defined but never used  @typescript-eslint/no-unused-vars
+  15:20  warning  'FadeInDown' is defined but never used       @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\portfolio.tsx
+  11:9  warning  'width' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\protocol.tsx
+  20:13  warning  'isAuthenticated' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  21:11  warning  'router' is assigned a value but never used           @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\timetable.tsx
+  6:10  warning  'Clock' is defined but never used     @typescript-eslint/no-unused-vars
+  6:31  warning  'BookOpen' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\tracker.tsx
+   6:17  warning  'RefreshCw' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+   6:34  warning  'PieChart' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+   6:61  warning  'Trash2' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+  38:8   warning  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\Solo-Leveling-Portfolio\app\app\notepad.tsx
+  4:10  warning  'supabase' is defined but never used      @typescript-eslint/no-unused-vars
+  5:66  warning  'ChevronRight' is defined but never used  @typescript-eslint/no-unused-vars
+  9:20  warning  'FadeInDown' is defined but never used    @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\pin.tsx
+   2:40  warning  'Alert' is defined but never used                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   7:18  warning  'Lock' is defined but never used                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  16:5   warning  'FadeIn' is defined but never used                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  19:5   warning  'FadeOut' is defined but never used                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  24:9   warning  'width' is assigned a value but never used                                                                                                                                                                      @typescript-eslint/no-unused-vars
+  24:16  warning  'height' is assigned a value but never used                                                                                                                                                                     @typescript-eslint/no-unused-vars
+  69:8   warning  React Hook useEffect has missing dependencies: 'authenticateWithBiometrics', 'glowOpacity', 'logoOpacity', 'logoScale', 'progressWidth', and 'textOpacity'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\Solo-Leveling-Portfolio\app\app\profile-edit.tsx
+    6:22  warning  'FileText' is defined but never used                  @typescript-eslint/no-unused-vars
+    6:59  warning  'Phone' is defined but never used                     @typescript-eslint/no-unused-vars
+    6:66  warning  'Globe' is defined but never used                     @typescript-eslint/no-unused-vars
+   14:13  warning  'isAuthenticated' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  120:18  warning  'error' is defined but never used                     @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\components\Toast.tsx
+   9:5  warning  'FadeInUp' is defined but never used                                                                                        @typescript-eslint/no-unused-vars
+  10:5  warning  'FadeOutUp' is defined but never used                                                                                       @typescript-eslint/no-unused-vars
+  24:9  warning  'width' is assigned a value but never used                                                                                  @typescript-eslint/no-unused-vars
+  39:8  warning  React Hook useEffect has missing dependencies: 'hide' and 'translateY'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+✖ 73 problems (7 errors, 66 warnings)
+

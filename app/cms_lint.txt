@@ -1,0 +1,58 @@
+
+> monarch-admin-mobile@1.0.0 lint
+> expo lint app/(tabs)/cms
+
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_SUPABASE_SERVICE_ROLE_KEY
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\achievements.tsx
+  5:41  warning  'Calendar' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\articles.tsx
+  9:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\certifications.tsx
+  9:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\experiences.tsx
+  9:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\index.tsx
+   2:10  warning  'TouchableOpacity' is defined but never used  @typescript-eslint/no-unused-vars
+   6:55  warning  'Button' is defined but never used            @typescript-eslint/no-unused-vars
+   6:63  warning  'Icon' is defined but never used              @typescript-eslint/no-unused-vars
+  28:43  error    Component definition is missing display name  react/display-name
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\passwords.tsx
+   39:27  warning  'error' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  354:18  error    'KeyboardAvoidingView' is not defined       react/jsx-no-undef
+  474:30  error    'KeyboardAvoidingView' is not defined       react/jsx-no-undef
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\projects.tsx
+   5:71  warning  'ImageIcon' is defined but never used        @typescript-eslint/no-unused-vars
+   9:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  51:18  warning  'e' is defined but never used                @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\roles.tsx
+  5:38  warning  'Command' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\skills.tsx
+    8:25  warning  'faServer' is defined but never used         @typescript-eslint/no-unused-vars
+    8:35  warning  'faCloud' is defined but never used          @typescript-eslint/no-unused-vars
+   10:14  warning  'faRefresh' is defined but never used        @typescript-eslint/no-unused-vars
+  108:11  warning  'insets' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\status.tsx
+    8:60  warning  'faRefresh' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   16:12  warning  'loading' is assigned a value but never used                                                                     @typescript-eslint/no-unused-vars
+   40:8   warning  React Hook useEffect has a missing dependency: 'fetchProfile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   45:27  warning  'error' is assigned a value but never used                                                                       @typescript-eslint/no-unused-vars
+  138:17  error    Duplicate key 'title'                                                                                            no-dupe-keys
+
+D:\Solo-Leveling-Portfolio\app\app\(tabs)\cms\testimonials.tsx
+    9:11  warning  'insets' is assigned a value but never used                      @typescript-eslint/no-unused-vars
+  203:33  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  203:48  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+✖ 27 problems (6 errors, 21 warnings)
+
